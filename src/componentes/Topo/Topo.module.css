@@ -1,0 +1,47 @@
+.limitar-secao {
+  max-width: 1024px;
+  margin: 0 auto;
+  /* background-color: #ccc; */
+}
+
+.logo{
+  width: auto;
+  height: 50px;
+}
+
+.topo {
+  padding: 10px 15px;
+  display: flex;
+}
+
+.topo div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topo a {
+  font-size: 18px;
+  /* font-weight: bold; */
+  margin: 0 5px;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  .topo div {
+    flex-direction: column;
+  }
+
+  .topo nav {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #aaadaf;
+  }
+
+}
+
