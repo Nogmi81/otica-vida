@@ -49,7 +49,7 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (min-width: 280px) and (max-width: 550px) {
   .secao-capa {
     background-position: 89% center;
   }
@@ -57,3 +57,4 @@
     background-color: rgba(0,0,0,0.5);
   }
 }
+
