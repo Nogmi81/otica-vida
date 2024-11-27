@@ -7,7 +7,7 @@ export default function Topo() {
   return (
     <header className={estilos['topo']}>
         <div className={estilos['limitar-secao']}>
-          <Image src={Logo} alt='Logo' className={estilos['logo']} />
+           <Link href='https://otica-vida-liard.vercel.app/'><Image src={Logo} alt='Logo' className={estilos['logo']} /></Link>
 
           <nav>
             <Link href='#produtos'>PRODUTOS</Link>
