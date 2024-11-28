@@ -52,6 +52,7 @@
 @media (min-width: 280px) and (max-width: 550px) {
   .secao-capa{
     background-position: 89%;
+    height: 90vh;
   }
   
   .div-capa{
@@ -59,7 +60,7 @@
     max-width: 100%;
     display: flex;
     justify-content: center; 
-    align-items: start;
+    align-items: center;
   }
   
   .div-content {
