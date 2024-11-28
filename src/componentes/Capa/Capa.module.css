@@ -53,8 +53,12 @@
   .secao-capa {
     background-position: 89% center;
   }
-  .secao-capa div {
-    background-color: rgba(0,0,0,0.3);
+  .secao-capa .div-capa{
+    background-color: rgba(0,0,0,0.45);
+    max-width: 70%;
+  }
+  .secao-capa .div-content {
+    background-color: rgba(0,0,0,0.4);
   }
 }
 
