@@ -7,5 +7,10 @@
   height: 10vh;
   padding: 20px;
   background-color: black;
-  color: white;
+  color: #8a8fa3;
+}
+
+.container_rodape a {
+  color: #fff;
+  text-decoration: none;
 }
