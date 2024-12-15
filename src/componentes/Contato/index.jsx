@@ -17,7 +17,7 @@ export default function Contato() {
           </div>
           <div>
             <Image src={telefone} title="Ícone telefone" alt="Ícone de um telefone" />
-            <span>(xx) 9999-9999</span>
+            <span>(31) 9901-1981</span>
           </div>
           <div>
             <Image src={email} title="Ícone email" alt="Ícone de uma carta" />
