@@ -4,7 +4,7 @@ export default function Rodape() {
   return (
     <footer>
       <div className={estilos['container_rodape']}>
-        <p>© 2022 Óticas Vida. - Todos os direitos reservados.</p>
+        <p>Copyright 2024 &copy; <Link href="https://www.linkedin.com/in/andretnmiranda/" target="_blank">André Tavares</Link></p>
       </div>
     </footer>
   )
